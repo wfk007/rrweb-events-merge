@@ -24,7 +24,7 @@ import rrwebPlayer from "rrweb-player";
 import { mergeEvents } from "rrweb-events-merge";
 
 const store = eventsStore();
-const { events, active } = storeToRefs(store);
+const { events } = storeToRefs(store);
 
 const startTimeStamp = ref();
 let player: rrwebPlayer;

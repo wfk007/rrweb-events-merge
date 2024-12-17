@@ -4,6 +4,35 @@ You can choose time range in replay and auto generate a clip of the events which
 
 ## Usage
 
+1. install dependencies
+
+```shell
+npm install rrweb-events-merge
+```
+
+2. import and generate merged events
+
+```ts
+import { mergeEvents } from "rrweb-events-merge";
+
+const mergedEvents = mergeEvents({
+  events: events,
+  startTimeStamp: startTimeStamp,
+  endTimeStamp: endTimeStamp,
+  iframe: iframe,
+  snapshotOptions: {
+    mirror,
+  },
+  onError: (error: string) => {
+    console.error(error);
+  },
+});
+```
+
+> you can also see the example in the [MergeEvents.vue](https://github.com/wfk007/rrweb-events-merge/blob/main/packages/platform/src/components/MergeEvents.vue)
+
+## examples
+
 1. install all dependencies
 
 ```shell
