@@ -1,14 +1,23 @@
 {
   "name": "rrweb-events-merge",
-  "version": "0.0.1",
-  "type": "module",
   "description": "merge rrweb events",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wfk007/rrweb-events-merge.git"
+  },
   "keywords": [
     "rrweb",
     "events",
     "merge"
   ],
   "author": "wangfukang@kuaishou.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wfk007/rrweb-events-merge/issues"
+  },
+  "homepage": "https://github.com/wfk007/rrweb-events-merge",
+  "version": "0.0.1",
+  "type": "module",
   "files": [
     "lib"
   ],
@@ -26,7 +35,8 @@
     "build": "vite build"
   },
   "devDependencies": {
-    "@rrweb/types": "^2.0.0-alpha.11"
+    "@rrweb/types": "^2.0.0-alpha.11",
+    "@types/node": "^22.10.2"
   },
   "peerDependencies": {
     "rrweb": "^2.0.0-alpha.11",

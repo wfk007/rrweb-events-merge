@@ -16,6 +16,15 @@ export default defineConfig({
       name: "rrweb-events-merge",
       fileName: (format) => `rrweb-events-merge.${format}.js`,
     },
+    rollupOptions: {
+      external: ["rrweb", "rrweb-snapshot"],
+      output: {
+        globals: {
+          "rrweb": "rrweb",
+          "rrweb-snapshot": "rrwebSnapshot",
+        },
+      },
+    },
     outDir: resolve(__dirname, "lib"),
   },
 });

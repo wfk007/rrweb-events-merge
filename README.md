@@ -2,6 +2,10 @@
 
 You can choose time range in replay and auto generate a clip of the events which can be played independently.
 
+Extremely small lib size:
+- size: 1.59 KB
+- gzip: 0.73 KB
+
 ## Usage
 
 1. install dependencies
