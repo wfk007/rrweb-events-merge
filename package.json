@@ -3,7 +3,7 @@
   "description": "merge rrweb events",
   "repository": {
     "type": "git",
-    "url": "git@github.com:wfk007/rrrweb-events-merge.git"
+    "url": "git@github.com:wfk007/rrweb-events-merge.git"
   },
   "keywords": [
     "rrweb",
@@ -13,10 +13,10 @@
   "author": "wangfukang@kuaishou.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wfk007/rrrweb-events-merge/issues"
+    "url": "https://github.com/wfk007/rrweb-events-merge/issues"
   },
   "private": true,
-  "homepage": "https://github.com/wfk007/rrrweb-events-merge#readme",
+  "homepage": "https://github.com/wfk007/rrweb-events-merge",
   "version": "0.0.1",
   "type": "module",
   "devDependencies": {

@@ -1,5 +1,5 @@
 {
-  "name": "@rrweb-events-merge/sdk",
+  "name": "rrweb-events-merge",
   "version": "0.0.1",
   "type": "module",
   "description": "merge rrweb events",
@@ -9,7 +9,6 @@
     "merge"
   ],
   "author": "wangfukang@kuaishou.com",
-  "private": true,
   "files": [
     "lib"
   ],

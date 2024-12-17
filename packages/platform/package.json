@@ -1,5 +1,5 @@
 {
-  "name": "@rrweb-events-merge/platform",
+  "name": "rrweb-events-merge-platform",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@rrweb-events-merge/sdk": "workspace:*",
+    "rrweb-events-merge": "workspace:*",
     "element-plus": "^2.9.1",
     "pinia": "^2.3.0",
     "rrweb": "^2.0.0-alpha.11",

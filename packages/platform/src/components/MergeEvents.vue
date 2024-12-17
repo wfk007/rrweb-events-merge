@@ -21,7 +21,7 @@ import { onMounted, ref } from "vue";
 import { eventsStore } from "@/store";
 import { storeToRefs } from "pinia";
 import rrwebPlayer from "rrweb-player";
-import { mergeEvents } from "@rrweb-events-merge/sdk";
+import { mergeEvents } from "rrweb-events-merge";
 
 const store = eventsStore();
 const { events, active } = storeToRefs(store);
