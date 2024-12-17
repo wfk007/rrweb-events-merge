@@ -16,7 +16,7 @@
     "url": "https://github.com/wfk007/rrweb-events-merge/issues"
   },
   "homepage": "https://github.com/wfk007/rrweb-events-merge",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "files": [
     "lib"
