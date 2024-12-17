@@ -1,0 +1,36 @@
+{
+  "name": "@rrweb-events-merge/sdk",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "merge rrweb events",
+  "keywords": [
+    "rrweb",
+    "events",
+    "merge"
+  ],
+  "author": "wangfukang@kuaishou.com",
+  "private": true,
+  "files": [
+    "lib"
+  ],
+  "types": "./lib/index.d.ts",
+  "main": "./lib/rrweb-events-merge.umd.js",
+  "module": "./lib/rrweb-events-merge.es.js",
+  "exports": {
+    ".": {
+      "import": "./lib/rrweb-events-merge.es.js",
+      "require": "./lib/rrweb-events-merge.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@rrweb/types": "^2.0.0-alpha.11"
+  },
+  "peerDependencies": {
+    "rrweb": "^2.0.0-alpha.11",
+    "rrweb-snapshot": "^2.0.0-alpha.11"
+  }
+}

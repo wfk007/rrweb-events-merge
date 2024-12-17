@@ -1,0 +1,28 @@
+{
+  "name": "rrweb-events-merge",
+  "description": "merge rrweb events",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wfk007/rrrweb-events-merge.git"
+  },
+  "keywords": [
+    "rrweb",
+    "events",
+    "merge"
+  ],
+  "author": "wangfukang@kuaishou.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wfk007/rrrweb-events-merge/issues"
+  },
+  "private": true,
+  "homepage": "https://github.com/wfk007/rrrweb-events-merge#readme",
+  "version": "0.0.1",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1",
+    "vue-tsc": "^2.1.10",
+    "vite-plugin-dts": "^3.6.0"
+  }
+}
