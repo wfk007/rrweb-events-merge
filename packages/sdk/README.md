@@ -1,6 +1,6 @@
 # rrweb-events-merge
 
-You can choose time range in replay and auto generate a clip of the events which can be played independently.
+You can choose any time range in replay and generate a new clip of the rrweb events which can be played independently **EVEN IF there are no fullsnapshots in this time range.**
 
 Extremely small lib size:
 - size: 1.59 KB
